@@ -13,8 +13,8 @@ function MainContent(){
                 <h2 className='subTitle'>Full Stack Developer</h2>
                 <a href='#' className='website'>www.samsaryon.com</a>
                 <ul className='topContacts'>
-                    <li><a href='#' className='email'><FontAwesomeIcon icon={faEnvelope} /> Email</a></li>
-                    <li><a href="#" className='linkedin'><FontAwesomeIcon icon={faLinkedin} /> Linkedin</a></li>
+                    <li><a href="mailto:ssaryonjr@email.com" className='email'><FontAwesomeIcon icon={faEnvelope} /> Email</a></li>
+                    <li><a href="https://www.linkedin.com/in/sam-saryon/" className='linkedin'><FontAwesomeIcon icon={faLinkedin} /> Linkedin</a></li>
                 </ul>
                 
             </div>

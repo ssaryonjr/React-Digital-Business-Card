@@ -8,9 +8,9 @@ export default function Footer(){
     return (
         <footer>
             <ul className='footerContact'>
-                <li><a href='#'><FontAwesomeIcon icon={faGithub} /></a></li>
-                <li><a href='#'><FontAwesomeIcon icon={faTwitter} /></a></li>
-                <li><a href='#'><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+                <li><a href='https://github.com/ssaryonjr'><FontAwesomeIcon icon={faGithub} /></a></li>
+                <li><a href='https://twitter.com/samsaryonjr'><FontAwesomeIcon icon={faTwitter} /></a></li>
+                <li><a href='https://www.linkedin.com/in/sam-saryon/'><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
             </ul>
         </footer>
     )
