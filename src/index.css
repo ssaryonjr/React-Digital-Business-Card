@@ -66,21 +66,40 @@ body {
     text-decoration: none;
 }
 
-.email {
-    width: 100%;
-    text-align: center;
-    background-color: white;
-    text-decoration: none;
-    color: black;
-    padding: 6px;
-    border-radius: 6px;
-    transition: .3s;
+.topContacts {
+    list-style-type: none;
+    display: flex;
 }
+
+.email,
+.linkedin {
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: .6s;
+}
+
+.email {
+    margin-right: 10px;
+    background-color: white;
+    color: black;
+}
+
+.linkedin {
+    background-color: #297FE5;
+    color: white;
+}
+
 
 .email:hover{
     background-color: #e9a97c;
     color: white;
+}
 
+.linkedin:hover{
+    background-color: #fff;
+    color: #297FE5;
 }
 
 .aboutInfo{
