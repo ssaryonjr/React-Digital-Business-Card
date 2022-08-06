@@ -1,15 +1,17 @@
 import React from 'react';
-import Navbar from './components/Navbar'
-import Main from './components/Main'
+import Profile from './components/Profile'
+import MainContent from './components/MainContent';
+import Footer from './components/Footer';
 
 function App(){
     return (
         <>
-        <Navbar />
-        <Main />
+            <Profile />
+            <MainContent />
+            <Footer />
         </>
     )
 }
 
-export default App;
 
+export default App
